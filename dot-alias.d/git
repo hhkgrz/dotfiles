@@ -1,0 +1,30 @@
+alias g='git'
+
+alias ga='git add'
+alias gall='git add -A'
+alias gau='git add -u'
+alias gap='git add -p'
+alias gav='git add -v'
+
+alias gb='git branch'
+alias gba='git branch --all'
+alias gbd='git branch -d'
+alias gbD='git branch -D'
+alias gbl='git branch --list'
+
+alias gc='git commit -v'
+
+alias gco='git checkout'
+alias gcob='git checkout -b'
+
+alias gcl='git clone'
+
+alias gd='git diff'
+alias gds='gd --staged'
+
+alias glg1='g log --graph --abbrev-commit --decorate --format=format:'\''%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'\'' --all'
+alias glg2='g log --graph --abbrev-commit --decorate --format=format:'\''%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n'\'\''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'\'
+alias glg=glg1
+
+alias gs='g status'
+alias gss='g status -s'
