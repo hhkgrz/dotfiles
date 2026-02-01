@@ -1,0 +1,16 @@
+alias ..='cd ..'
+alias cd..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias -- -='cd -'
+
+alias h='history'
+
+alias ls='ls --color=auto'
+alias la='ls -AF'
+alias ll='ls -Al'
+alias l='ls -A'
+alias l1='ls -1'
+alias lf='ls -F'
+
+alias md='mkdir -p'
